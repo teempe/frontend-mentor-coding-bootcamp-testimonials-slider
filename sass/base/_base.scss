@@ -1,0 +1,36 @@
+:root {
+    --color-dark-blue: #202047; 
+    --color-grayish-blue: #B9B9CE;
+    --color-white: #FFF;
+
+    --ff-body: 'Inter', sans-serif;
+    --fw-light: 300;
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
+
+$bp-desktop: 90em; // 1440px
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+
+    // center content on page
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}

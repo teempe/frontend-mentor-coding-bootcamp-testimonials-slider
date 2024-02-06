@@ -1,0 +1,16 @@
+{
+  "name": "coding-bootcamp-testimonials-slider",
+  "version": "1.0.0",
+  "description": "Frontend Mentor - Coding bootcamp testimonials slider solution",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
