@@ -2,6 +2,7 @@
     --color-dark-blue: #202047; 
     --color-grayish-blue: #B9B9CE;
     --color-white: #FFF;
+    --color-shadow: rgba(74, 63, 219, 0.5); // #202047
 
     --ff-body: 'Inter', sans-serif;
     --fw-light: 300;
@@ -27,10 +28,17 @@ html {
 }
 
 body {
+    background-color: #F2F2F2;
     overflow-x: hidden;
 
     // center content on page
     display: grid;
     place-content: center;
     min-height: 100vh;
+
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--color-dark-blue);
 }

@@ -1,0 +1,14 @@
+.slide {
+
+    &__buttons {
+        width: 8rem;
+        height: 4rem;
+        background-color: var(--color-white);
+        border-radius: 2.8rem;
+        padding: 1.5rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

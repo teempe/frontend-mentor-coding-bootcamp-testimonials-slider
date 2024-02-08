@@ -1,0 +1,77 @@
+.testimonial-card {
+    max-width: 37.5rem;
+    padding: 2.4rem 2.4rem 7.5rem;
+    background-color: var(--color-white);
+
+    display: grid;
+    row-gap: 5.7rem;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 28.5rem;
+        height: 7.2rem;
+        background: url("../../images/pattern-curve.svg");
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__hero {
+        background: url("../images/pattern-bg.svg");
+        background-size: cover;
+        position: relative;
+    }
+
+    &__photo {
+        width: 25.4rem;
+        height: 25.3rem;
+        border-radius: 0.5rem;
+        margin: 3rem auto 2.5rem;
+        box-shadow: 0rem 2.5rem 2.5rem -2rem var(--color-shadow);
+    }
+
+    &__buttons {
+        position: absolute;
+        bottom: 0.45rem;
+        left: calc(50% - 4rem);
+
+        box-shadow: 0rem 1rem 2rem -1rem var(--color-shadow);
+    }
+
+    &__content {
+        text-align: center;
+        margin: 0rem 0.8rem;
+    }
+    
+    &__text {
+        margin-bottom: 1.9rem;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 6rem;
+            height: 5rem;
+            background: url("../images/pattern-quotes.svg");
+            background-size: cover;
+            position: absolute;
+            left: calc(50% - 3rem);
+            top: -2.5rem;
+        }
+    }
+
+    &__footer {
+        font-size: 1.5rem;
+        line-height: 2rem; 
+    }
+
+    &__author-name {
+        font-weight: var(--fw-bold);
+    }
+
+    &__author-title {
+        font-weight: var(--fw-medium);
+        color: var(--color-grayish-blue);
+    }
+}
