@@ -41,4 +41,9 @@ body {
     font-size: 1.8rem;
     line-height: 2.4rem;
     color: var(--color-dark-blue);
+
+    @media only screen and (min-width: $bp-desktop) {
+        font-size: 3.2rem;
+        line-height: 4.4rem;
+    }
 }
